@@ -4,6 +4,6 @@
     "sourceMap": true
   },
   "files": [
-    "./app/app.ts"
+    "./app.ts"
   ]
 }

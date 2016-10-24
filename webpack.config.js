@@ -1,4 +1,4 @@
-var webpack = required('webpack');
+// var webpack = required('webpack');
 
 module.exports = {
   entry: './app.ts',
@@ -9,9 +9,9 @@ module.exports = {
   resolve: {
     extensions: ['', '.webpack.js', '.web.js', '.ts', '.js']
   },
-  plugins: [
-    new webpack.optimize.UglifyJsPlugin()
-  ],
+  // plugins: [
+  //   new webpack.optimize.UglifyJsPlugin()
+  // ],
   module: {
     loaders: [
       { test: /\.ts$/, loader: 'ts-loader' }

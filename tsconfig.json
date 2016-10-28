@@ -8,5 +8,8 @@
   },
   "files": [
     "./app.ts"
+  ],
+  "include": [
+    "./routes/*.ts"
   ]
 }

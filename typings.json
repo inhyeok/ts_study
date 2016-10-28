@@ -1,5 +1,3 @@
-// The TypeScript Definition Manager.
-// typings는 기존 Javascript 라이브러리들의 타입 정보만을 선언한 파일들을 내려받을 수 있도록 도와주는 툴
 {
   "globalDependencies": {
     "core-js": "registry:dt/core-js#0.0.0+20160317120654",

@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/inhyeok/ts_study#readme",
   "dependencies": {
+    "express": "^4.13.3",
+    "body-parser": "^1.14.1",
+    "errorhandler": "^1.4.2",
+    "method-override": "^2.3.5",
     "@angular/common": "2.0.0-rc.1",
     "@angular/compiler": "2.0.0-rc.1",
     "@angular/core": "2.0.0-rc.1",

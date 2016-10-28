@@ -1,7 +1,6 @@
 *.map
-app.js
 node_modules/
 *.log
 
-routes/*.js
+app/js/
 typings/

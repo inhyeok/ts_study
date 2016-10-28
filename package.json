@@ -2,25 +2,16 @@
   "name": "ts_study",
   "version": "1.0.0",
   "description": "--------",
-  "main": "app.js",
   "scripts": {
-    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
-    "postinstall": "typings install",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "typings": "typings"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/inhyeok/ts_study.git"
+    "typings": "typings",
+    "postinstall": "typings install"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/inhyeok/ts_study/issues"
-  },
-  "homepage": "https://github.com/inhyeok/ts_study#readme",
   "dependencies": {
     "angular2": "2.0.0-beta.13",
     "systemjs": "0.19.25",

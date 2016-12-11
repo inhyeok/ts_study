@@ -1,6 +1,1 @@
-*.map
-node_modules/
-*.log
-
-app/js/
-typings/
+*.js
